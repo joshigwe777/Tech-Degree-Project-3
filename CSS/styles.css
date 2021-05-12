@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    background-color: rgba(24, 27, 37, 0.918);
+    text-align: center; 
+}
+
+header {
+    text-align: center;
+    border-bottom: double black 9px;
+}
+
+form {
+    max-width: 760px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact {
+    border-bottom: solid black 2px;
+}
