@@ -45,6 +45,7 @@ select {
     font-size: 16px;
     padding: 15px;
     border-radius: 5px;
+    
 }
 
 #zipcode {
@@ -97,13 +98,15 @@ footer {
     font-weight: lighter;
 }
 
-input:focus {
+input:focus, 
+textarea:focus,
+select:focus {
     background-color: bisque;
 }
 
 @media screen and (min-width: 768px) {
 
-    .label {
+    #contact-form label {
         float: left;
         width: 25%
     }
@@ -119,8 +122,9 @@ input:focus {
     }
 
     #zipcode {
-        width: 25%;
+        width: 50%;
     }
 
 
     }
+
